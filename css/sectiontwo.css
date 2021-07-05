@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Roboto";
+  list-style: none;
+  box-sizing: border-box;
+  background: #22323e;
+}
+
+
+/* SWIPER */
+
+#sectiontwo {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: transparent;
+}
+
+.swiper-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 50px 0;
+}
+
+.swiper-wrapper {
+  transition-delay: 0.5s;
+}
+
+.swiper-slide {
+  height: 400px !important;
+  width: 90% !important;
+  background: transparent;
+}
+
+.swiper-slide:nth-child(1) .slide-img {
+  background-image: url("../images/oss.png");
+}
+.swiper-slide:nth-child(2) .slide-img {
+  background-image: url("../images/sports.png");
+}
+.swiper-slide:nth-child(3) .slide-img {
+  background-image: url("../images/isdf.png");
+}
+.swiper-slide:nth-child(4) .slide-img {
+  background-image: url("../images/technical.png");
+}
+.swiper-slide:nth-child(5) .slide-img {
+  background-image: url("../images/magazine.png");
+}
+.swiper-slide:nth-child(6) .slide-img {
+  background-image: url("../images/cultural.png");
+}
+.swiper-slide:nth-child(7) .slide-img {
+  background-image: url("../images/oss.png");
+}
+.swiper-slide:nth-child(8) .slide-img {
+  background-image: url("../images/oss.png");
+}
+.swiper-slide:nth-child(9) .slide-img {
+  background-image: url("../images/oss.png");
+}
+.swiper-slide:nth-child(10) .slide-img {
+  background-image: url("../images/oss.png");
+}
+.swiper-slide:nth-child(11) .slide-img {
+  background-image: url("../images/oss.png");
+}
+
+.slide-img {
+  background-position: "center";
+  background-repeat: no-repeat !important;
+  background-size: contain;
+  width: 30%;
+  height: 100%;
+}
+
+.slide-number {
+  position: absolute;
+  top: -30px;
+  left: 30%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.slide-number p {
+  font-size: 40px;
+  font-family: "AlphaCentauri" !important;
+  color: #fff;
+  position: relative;
+}
+
+.slide-number p span {
+  position: absolute;
+}
+
+.slide-detail {
+  position: absolute;
+  top: 130px;
+  left: 30%;
+  z-index: 10;
+  width: 60%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.slide-detail p {
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  opacity: 0.8;
+  line-height: 25px;
+}
+
+.slide-detail p span {
+  position: absolute;
+}
+
+.slide-detail-facts {
+  position: absolute;
+  top: 250px;
+  left: 30%;
+  z-index: 10;
+  width: 50%;
+  height: 400px;
+  overflow: hidden;
+  color: #fff;
+}
+.slide-detail-facts div {
+  display: flex;
+  position: relative;
+}
+.slide-detail-facts div h5 {
+  margin-right: 20px;
+}
+
+.slide-text {
+  position: absolute;
+  top: -150px;
+  left: 22%;
+  z-index: 9;
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  opacity: 0.1 !important;
+}
+
+.slide-text h4 {
+  color: #fff;
+  font-size: 100px;
+  position: relative;
+}
+.slide-text h4 span {
+  position: absolute;
+}
+
+/* v2 */
+.planet-links {
+  width: 95%;
+  height: 5vh;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.planet-links .swiper-pagination-bullet {
+  opacity: 0.2;
+  outline: none;
+}
+.planet-links .swiper-pagination-bullet-active {
+  color: #fff;
+  opacity: 1;
+}

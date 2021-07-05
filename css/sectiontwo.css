@@ -57,19 +57,19 @@ body {
   background-image: url("../images/cultural.png");
 }
 .swiper-slide:nth-child(7) .slide-img {
-  background-image: url("../images/oss.png");
+  background-image: url("../images/arts.png");
 }
 .swiper-slide:nth-child(8) .slide-img {
-  background-image: url("../images/oss.png");
+  background-image: url("../images/maths.png");
 }
 .swiper-slide:nth-child(9) .slide-img {
-  background-image: url("../images/oss.png");
+  background-image: url("../images/ddq.png");
 }
 .swiper-slide:nth-child(10) .slide-img {
-  background-image: url("../images/oss.png");
+  background-image: url("../images/nature.png");
 }
 .swiper-slide:nth-child(11) .slide-img {
-  background-image: url("../images/oss.png");
+  background-image: url("../images/robotics.png");
 }
 
 .slide-img {
